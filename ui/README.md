@@ -58,3 +58,13 @@ npm run test:e2e -- --debug
 ```sh
 npm run lint
 ```
+
+
+### Vue Final Modal
+
+https://vue-final-modal.org/
+
+```
+npm i vue-final-modal
+```
+

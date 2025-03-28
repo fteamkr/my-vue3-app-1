@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import { ModalsContainer } from 'vue-final-modal' // https://vue-final-modal.org/get-started/guide/setup#add-modalscontainer-to-vue-tree
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -18,6 +19,9 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+
+  <!-- https://vue-final-modal.org/get-started/guide/setup#add-modalscontainer-to-vue-tree -->
+  <ModalsContainer />
 </template>
 
 <style scoped>
