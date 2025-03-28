@@ -3,7 +3,7 @@
 
 ## ui
 
-Create vue3 project
+[Vue.js - Creating a Vue Application](https://vuejs.org/guide/quick-start.html#creating-a-vue-application)
 ```
 [my-vue3-app-1] $ npm create vue@latest
 
@@ -41,4 +41,5 @@ Scaffolding project in my-vue3-app-1\ui...
 
 ## api
 
-
+[Spring Initializr](https://start.spring.io/)
+- https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.4.4&packaging=jar&jvmVersion=17&groupId=my.vue3.app&artifactId=api&name=api&description=&packageName=my.vue3.app.api&dependencies=devtools,lombok,configuration-processor,web,security,oauth2-resource-server,oauth2-authorization-server,jdbc,h2,validation,actuator
